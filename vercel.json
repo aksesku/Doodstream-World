@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        { "source": "/api/videos", "destination": "/api/videos" }
+    ],
+    "env": {
+        "DOODSTREAM_API_KEY": "@doodstream_api_key" // Referensikan Environment Variable di Vercel
+    }
+}
