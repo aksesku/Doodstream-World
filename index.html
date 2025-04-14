@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoodStream Hub (Vercel)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DoodStream Hub</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Cari judul video...">
+            <button type="submit">Cari</button>
+        </form>
+    </header>
+    <main>
+        <div id="video-list-container" class="video-grid">
+            </div>
+        <div id="video-detail-container" style="display: none;">
+            <h2 id="video-detail-title"></h2>
+            <div id="video-detail-embed"></div>
+            <p id="video-detail-description"></p>
+            <p><span class="back-to-list">&laquo; Kembali ke Daftar</span></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 DoodStream Hub</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
